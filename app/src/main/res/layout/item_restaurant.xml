@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@color/purple_200"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/iv_main"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:background="@color/black"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/tv_maximum_capacity_of_people"
+        app:layout_constraintStart_toEndOf="@id/iv_main"
+        app:layout_constraintTop_toTopOf="@id/iv_main"
+        tools:text="Saltanat Palace" />
+
+    <TextView
+        android:id="@+id/tv_maximum_capacity_of_people"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/tv_average_check_per_person"
+        app:layout_constraintStart_toStartOf="@id/tv_name"
+        app:layout_constraintTop_toBottomOf="@id/tv_name"
+        tools:text="Вместительность: 1000 чел." />
+
+    <TextView
+        android:id="@+id/tv_average_check_per_person"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/iv_main"
+        app:layout_constraintStart_toStartOf="@id/tv_maximum_capacity_of_people"
+        app:layout_constraintTop_toBottomOf="@id/tv_maximum_capacity_of_people"
+        tools:text="Средний чек на человека: 1200 сом" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

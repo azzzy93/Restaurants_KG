@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Рестораны KG</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="account">Аккаунт</string>
+    <string name="home">Главная</string>
+    <string name="favorites">Избранное</string>
+    <string name="calculator">Калькулятор</string>
+    <string name="select_photos">Выбрать фотографии</string>
+    <string name="enter_restaurant_name">Введите название ресторана</string>
+    <string name="enter_hall_area">Введите площадь зала</string>
+    <string name="enter_max_capacity_of_people">Введите число вместительности людей</string>
+    <string name="enter_address_restaurant">Введите адрес ресторана</string>
+    <string name="enter_phone_number">Введите номер телефона (пример 700123456)</string>
+    <string name="enter_mail_address">Введите адрес электорнной почты</string>
+    <string name="enter_web_site">Введите веб сайт</string>
+    <string name="enter_average_check_per_person">Введите средний чек на человека</string>
+    <string name="save">Сохранить</string>
+</resources>
